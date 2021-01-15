@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"
+                 href="first.xsl"?>
+<site>
+    <host_page>
+        <headline>
+            <head>Projet</head>
+            <subhead>Cours: Documents structurés</subhead>
+        </headline>
+        <body>
+            <div>Les étapes de mise en œuvre</div>
+                <first_step>La partie 1 du projet</first_step>
+                <description>
+                    Le travail actuel se repose sur la manipulation de l'archive des documents donnés.
+                    Pour extraire des données il est nécessaire d'employer une feuille .xslt. 
+                    Pour effectuer une extraction correcte du contenu nous avons un schéma de la TEI pour nous guider.
+                </description>
+                <second_step>La partie 2 du projet</second_step>
+                <description>
+                    L'étape 2 du projet se repose sur la création d'un site web à partir des fichier .xml en utilisant l'application eXist-db.
+                </description>
+            <div>Les difficultés rencontrées</div>
+            <description>
+                La première difficulté a été liée à l'application de la TEI au fichier .xml réalisé avec notre fichier .xslt.
+                L'extraction de l'information à partir de deux fichiers différents n'étant pas évident au début a demandé du temps à sa réalisation.
+                La deuxième difficulté s'est révélée au niveau de l'utilisation de l'application eXist-db qui est très nouveau pour nous.
+            </description>
+        </body>
+        <bottom_line>
+            <site_author>
+                <name>Anna Niskovskikh</name>
+                <occupation>étudiante en TAL, INaLCO</occupation>
+            </site_author>
+            <date_creation>2021</date_creation>
+        </bottom_line>
+    </host_page>
+</site>
