@@ -1,0 +1,19 @@
+nav.menu ul li.btn{
+	display: inline-block; 
+	list-style-type: none;
+}
+
+nav.menu ul li.btn a{
+	color:  #fff ;
+	text-decoration: none;
+	opacity: 0.8;
+	background-color:  #17202a;
+	padding: 12px;
+	font-size: 15px;
+}
+
+nav.menu ul li.btn a:hover{
+	color:   #f6ad23  ;
+	background-color: #fff;
+	transition: 0.3s all;
+}

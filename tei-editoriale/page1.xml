@@ -4,8 +4,7 @@
 <site>
     <host_page>
         <headline>
-            <head>Projet</head>
-            <subhead>Cours: Documents structurés</subhead>
+            <name>Projet: Documents structurés</name>
         </headline>
         <body>
             <div>Les étapes de mise en œuvre</div>
