@@ -1,0 +1,65 @@
+TEI:before {
+    display: block;
+    width: 15em;
+    font-weight: bold;
+    font-size: 200%;
+    content: "Contenu du fichier .xml";
+    margin: 10px 10px 10px 0px;
+    padding: .1em .25em;
+    background-color: #cdf;
+    }
+
+TEI {
+    display: block;
+    margin: 1em;
+    border: 4px solid #cdf;
+    padding: 0px 1em;
+    background-color: white;
+    }
+
+title:before {
+    display: block;
+    content: "Titre: ";
+    font-weight: bold;
+}
+
+author:before {
+    display: block;
+    content: "Auteur: ";
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+bibliography:before {
+    display: block;
+    content: "Bibliographie: ";
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+availability:before {
+    display: block;
+    content: "Licence: ";
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+date:before {
+    display: block;
+    content: "Date de publication: ";
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+projectDesc:before {
+    display: block;
+    content: "Description du projet: ";
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+p {
+    display: block;
+    margin: 1em 0;
+    }
+  

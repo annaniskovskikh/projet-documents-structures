@@ -61,8 +61,10 @@
                     <p><xsl:value-of select="."/></p> 
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:if test="$paragraphe/text:p">
-                        <p><xsl:value-of select="."/></p> 
+                    <xsl:if test="$paragraphe/text:p != 'Madame Bovary'">
+                        <xsl:if test="$paragraphe/text:p">
+                            <p><xsl:value-of select="."/></p> 
+                        </xsl:if>
                     </xsl:if>
                 </xsl:otherwise>
             </xsl:choose>

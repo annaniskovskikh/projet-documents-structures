@@ -1,36 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl"
                  href="first.xsl"?>
-<site>
-    <host_page>
-        <headline>
-            <name>Projet: Documents structurés</name>
-        </headline>
-        <body>
-            <div>Les étapes de mise en œuvre</div>
-                <first_step>La partie 1 du projet</first_step>
+<host_page>
+    <headline>
+        <name>Projet: Documents structurés</name>
+    </headline>
+    <body>
+        <partOne>Les étapes de mise en œuvre</partOne>
+            <firstStep>
+                <name>La partie 1 du projet</name>
                 <description>
-                    Le travail actuel se repose sur la manipulation de l'archive des documents donnés.
-                    Pour extraire des données il est nécessaire d'employer une feuille .xslt. 
-                    Pour effectuer une extraction correcte du contenu nous avons un schéma de la TEI pour nous guider.
+                    <sentOne>Le travail actuel se repose sur la manipulation de l'archive des documents donnés.</sentOne>
+                    <sentTwo>Pour extraire des données il est nécessaire d'employer une feuille .xslt.</sentTwo>
+                    <sentThree>Pour effectuer une extraction correcte du contenu nous avons un schéma de la TEI pour nous guider.</sentThree>
                 </description>
-                <second_step>La partie 2 du projet</second_step>
+            </firstStep>
+            <secondStep>
+                <name>La partie 2 du projet</name>
                 <description>
                     L'étape 2 du projet se repose sur la création d'un site web à partir des fichier .xml en utilisant l'application eXist-db.
                 </description>
-            <div>Les difficultés rencontrées</div>
+            </secondStep>
+        <partTwo>
+            <name>La navigation sur le site</name>
             <description>
-                La première difficulté a été liée à l'application de la TEI au fichier .xml réalisé avec notre fichier .xslt.
-                L'extraction de l'information à partir de deux fichiers différents n'étant pas évident au début a demandé du temps à sa réalisation.
-                La deuxième difficulté s'est révélée au niveau de l'utilisation de l'application eXist-db qui est très nouveau pour nous.
+                <name>Sur ce site vous pourrez trouver:</name>
+                <subDescOne>- une page d'accueil (la page actuelle) avec la description du travail réalisé et des difficultés rencontrées;</subDescOne>
+                <subDescTwo>- une page permettant de faire des requêtes sur les documents donnés pour rechercher de l'information pertinente;</subDescTwo>
+                <subDescThree>- des pages présentant le contunu des documents transformés grâce à une feuille de style .css (voir ci-dessous): </subDescThree>
             </description>
-        </body>
-        <bottom_line>
-            <site_author>
-                <name>Anna Niskovskikh</name>
-                <occupation>étudiante en TAL, INaLCO</occupation>
-            </site_author>
-            <date_creation>2021</date_creation>
-        </bottom_line>
-    </host_page>
-</site>
+            </partTwo>
+        <partThree>
+            <name>Les difficultés rencontrées</name>
+            <description>
+                <diffOne>La première difficulté a été liée à l'application de la TEI au fichier .xml réalisé avec notre fichier .xslt.</diffOne>
+                <diffTwo>L'extraction du texte des balises &lt;...text:h&gt; et &lt;...text:p&gt; s'est révélée assez compliquée étant donné que ces balises étaient mélangées dans le document il fallait trouver une bonne méthode pour extraire balise par balise de manière homogène sans perdre/rajouter de l'information.</diffTwo>
+                <diffThree>L'extraction de l'information à partir de deux fichiers différents n'étant pas évident au début a demandé du temps à sa réalisation.</diffThree>
+                <diffFour>L'autre difficulté s'est montrée au niveau de l'utilisation de l'application eXist-db qui est très nouveau pour nous ainsi que le scriptage en HTML et CSS.</diffFour>
+            </description>
+        </partThree>
+    </body>
+    <bottom_line>
+        <site_author>
+            <name>Anna Niskovskikh</name>
+            <occupation>étudiante en TAL, INaLCO</occupation>
+        </site_author>
+        <schoolYear>2020-2021</schoolYear>
+    </bottom_line>
+</host_page>

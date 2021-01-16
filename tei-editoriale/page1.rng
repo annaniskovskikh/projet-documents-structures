@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="host_page"/>
+    </start>
+
+    <define name="host_page">
+        <element name="host_page">
+                <ref name="headline"/>
+        </element>
+    </define>
+    <define name="headline">
+        <element name="headline">
+                <element name="name"/>
+                <text/>
+        </element>
+    </define>
+    <define name="host_page">
+        <element name="host_page">
+                <ref name="body"/>
+        </element>
+    </define>
+    <define name="body">
+        <element name="body">
+                <element name="partOne"/>
+                <text/>
+        </element>
+    </define>
+    <define name="partOne">
+        <element name="partOne">
+                <ref name="firstStep"/>
+        </element>
+    </define>
+    <define name="firstStep">
+        <element name="firstStep">
+                <element name="name"/>
+                <text/>
+        </element>
+    </define>
+    <define name="firstStep">
+        <element name="firstStep">
+                <ref name="description"/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="sentOne"/>
+                <text/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="sentTwo"/>
+                <text/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="sentThree"/>
+                <text/>
+        </element>
+    </define>
+    <define name="partOne">
+        <element name="partOne">
+                <ref name="secondStep"/>
+        </element>
+    </define>
+    <define name="secondStep">
+        <element name="secondStep">
+                <element name="name"/>
+                <text/>
+        </element>
+    </define>
+    <define name="secondStep">
+        <element name="secondStep">
+                <element name="description"/>
+                <text/>
+        </element>
+    </define>
+    <define name="body">
+        <element name="body">
+                <ref name="partTwo"/>
+        </element>
+    </define>
+    <define name="partTwo">
+        <element name="partTwo">
+                <ref name="name"/>
+        </element>
+    </define>
+    <define name="partTwo">
+        <element name="partTwo">
+                <ref name="description"/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="name"/>
+                <text/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="subDescOne"/>
+                <text/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="subDescTwo"/>
+                <text/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="subDescThree"/>
+                <text/>
+        </element>
+    </define>
+    <define name="body">
+        <element name="body">
+                <ref name="partThree"/>
+        </element>
+    </define>
+    <define name="partThree">
+        <element name="partThree">
+                <element name="name"/>
+                <text/>
+        </element>
+    </define>
+    <define name="partThree">
+        <element name="partThree">
+                <ref name="description"/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="diffOne"/>
+                <text/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="diffTwo"/>
+                <text/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="diffThree"/>
+                <text/>
+        </element>
+    </define>
+    <define name="description">
+        <element name="description">
+                <element name="diffFour"/>
+                <text/>
+        </element>
+    </define>
+    <define name="host_page">
+        <element name="host_page">
+                <ref name="bottom_line"/>
+        </element>
+    </define>
+    <define name="bottom_line">
+        <element name="bottom_line">
+                <ref name="site_author"/>
+        </element>
+    </define>
+    <define name="site_author">
+        <element name="site_author">
+                <element name="name"/>
+                <text/>
+        </element>
+    </define>
+    <define name="site_author">
+        <element name="site_author">
+                <element name="occupation"/>
+                <text/>
+        </element>
+    </define>
+    <define name="bottom_line">
+        <element name="bottom_line">
+                <element name="schoolYear"/>
+                <text/>
+        </element>
+    </define>
+</grammar>

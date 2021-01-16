@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/style_text.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:foo="http://whatever" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0">
    <teiHeader>
       <fileDesc>
@@ -7,9 +8,7 @@
             <author>Gustave Flaubert</author>
          </titleStmt>
          <publicationStmt>
-            <availability>
-               <p>https://www.gutenberg.org/policy/permission.html</p>
-            </availability>
+            <availability>https://www.gutenberg.org/policy/permission.html</availability>
             <date>26/11/2004</date>
          </publicationStmt>
          <sourceDesc>
@@ -22,15 +21,12 @@
          </creation>
       </profileDesc>
       <encodingDesc>
-         <projectDesc>
-            <p>Pour le projet de Documents Structurés</p>
-         </projectDesc>
+         <projectDesc>Pour le projet de Documents Structurés</projectDesc>
       </encodingDesc>
    </teiHeader>
    <text>
       <body>
          <head>Madame Bovary</head>
-         <p>Madame Bovary</p>
          <p>PREMIÈRE PARTIE</p>
          <p>I</p>
          <p>Nous étions à l'Étude, quand le Proviseur entra, suivi d'un nouveau habillé en bourgeois et d'un garçon de classe qui portait un grand pupitre. Ceux qui dormaient se réveillèrent, et chacun se leva comme surpris dans son travail.</p>
